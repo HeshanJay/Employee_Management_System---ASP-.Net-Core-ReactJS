@@ -1,0 +1,6 @@
+@EMP_BACKEND_HostAddress = http://localhost:5112
+
+GET {{EMP_BACKEND_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

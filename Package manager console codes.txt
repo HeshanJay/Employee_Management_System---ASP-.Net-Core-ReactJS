@@ -1,0 +1,8 @@
+Departments table:
+Add-Migration initial
+update-database
+
+
+Employees table:
+Add-Migration InitialCreate -Context EmployeeContext
+Update-Database -Context EmployeeContext
